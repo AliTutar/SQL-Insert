@@ -66,6 +66,7 @@
             this.tblPersonellBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.personelVeriTabaniDataSet2 = new Personel_Veritabanı.PersonelVeriTabaniDataSet2();
             this.tbl_PersonellTableAdapter = new Personel_Veritabanı.PersonelVeriTabaniDataSet2TableAdapters.Tbl_PersonellTableAdapter();
+            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -143,6 +144,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Bekar";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton1
             // 
@@ -154,6 +156,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Evli";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // label5
             // 
@@ -292,6 +295,7 @@
             this.BtnTemizle.TabIndex = 6;
             this.BtnTemizle.Text = "Temizle";
             this.BtnTemizle.UseVisualStyleBackColor = true;
+            this.BtnTemizle.Click += new System.EventHandler(this.BtnTemizle_Click);
             // 
             // BtnSil
             // 
@@ -341,6 +345,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(884, 241);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
             // 
             // peridDataGridViewTextBoxColumn
             // 
@@ -399,12 +404,24 @@
             // 
             this.tbl_PersonellTableAdapter.ClearBeforeFill = true;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(783, 250);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(61, 23);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "label8";
+            this.label8.Visible = false;
+            this.label8.TextChanged += new System.EventHandler(this.label8_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(914, 614);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -420,6 +437,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tblPersonellBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personelVeriTabaniDataSet2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -462,6 +480,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn perMaaşDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewCheckBoxColumn perDurumDataGridViewCheckBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn perMeslekDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Label label8;
     }
 }
 

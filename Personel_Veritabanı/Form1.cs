@@ -109,5 +109,18 @@ namespace Personel_Veritabanı
                 radioButton2.Checked = true;
             }
         }
+
+        private void BtnSil_Click(object sender, EventArgs e)
+        {
+            bağlantı.Open();
+            SqlCommand kişisil = new SqlCommand("Delete From Tbl_Personell Where Perid=@k1", bağlantı);
+            kişisil.Parameters.AddWithValue("@k1", Txtİd.Text);
+            kişisil.ExecuteNonQuery();
+            bağlantı.Close();
+
+            MessageBox.Show("Kayit Silindi");
+
+
+        }
     }
 }

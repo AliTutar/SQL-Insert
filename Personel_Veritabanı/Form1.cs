@@ -122,5 +122,21 @@ namespace Personel_Veritabanı
 
 
         }
+
+        private void BtnGüncelle_Click(object sender, EventArgs e)
+        {
+            bağlantı.Open();
+            SqlCommand Komutguncelle = new SqlCommand("Update Tbl_Personell Set Perad=@a1,PerSoyad=@a2,PerŞehir=@a3,PerMaaş=@a4,PerDurum=@a5,PerMeslek=@a6 where Perid=@a7", bağlantı);
+            Komutguncelle.Parameters.AddWithValue("@a1", TxtAd.Text);
+            Komutguncelle.Parameters.AddWithValue("@a2", TxtSoyad.Text);
+            Komutguncelle.Parameters.AddWithValue("@a3", CmbŞehir.Text);
+            Komutguncelle.Parameters.AddWithValue("@a4", MskMaaş.Text);
+            Komutguncelle.Parameters.AddWithValue("@a5", label8.Text);
+            Komutguncelle.Parameters.AddWithValue("@a6", TxtMeslek.Text);
+            Komutguncelle.Parameters.AddWithValue("@a7", Txtİd.Text);
+            Komutguncelle.ExecuteNonQuery();
+            bağlantı.Close();
+            MessageBox.Show("Personel Bilgi Güncellendi");
+        }
     }
 }

@@ -105,7 +105,7 @@
             this.MskMaaş.Location = new System.Drawing.Point(150, 163);
             this.MskMaaş.Mask = "00000";
             this.MskMaaş.Name = "MskMaaş";
-            this.MskMaaş.Size = new System.Drawing.Size(151, 29);
+            this.MskMaaş.Size = new System.Drawing.Size(151, 34);
             this.MskMaaş.TabIndex = 11;
             this.MskMaaş.ValidatingType = typeof(int);
             // 
@@ -113,7 +113,7 @@
             // 
             this.TxtMeslek.Location = new System.Drawing.Point(150, 231);
             this.TxtMeslek.Name = "TxtMeslek";
-            this.TxtMeslek.Size = new System.Drawing.Size(151, 29);
+            this.TxtMeslek.Size = new System.Drawing.Size(151, 34);
             this.TxtMeslek.TabIndex = 3;
             // 
             // label7
@@ -121,7 +121,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(78, 162);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 23);
+            this.label7.Size = new System.Drawing.Size(77, 29);
             this.label7.TabIndex = 10;
             this.label7.Text = "Maaş:";
             // 
@@ -130,7 +130,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(69, 234);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 23);
+            this.label6.Size = new System.Drawing.Size(97, 29);
             this.label6.TabIndex = 2;
             this.label6.Text = "Meslek:";
             // 
@@ -139,7 +139,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(224, 198);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(77, 27);
+            this.radioButton2.Size = new System.Drawing.Size(97, 33);
             this.radioButton2.TabIndex = 9;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Bekar";
@@ -151,7 +151,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(150, 198);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(60, 27);
+            this.radioButton1.Size = new System.Drawing.Size(76, 33);
             this.radioButton1.TabIndex = 8;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Evli";
@@ -163,7 +163,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(70, 198);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 23);
+            this.label5.Size = new System.Drawing.Size(98, 29);
             this.label5.TabIndex = 2;
             this.label5.Text = "Durum:";
             // 
@@ -172,7 +172,7 @@
             this.CmbŞehir.FormattingEnabled = true;
             this.CmbŞehir.Location = new System.Drawing.Point(150, 123);
             this.CmbŞehir.Name = "CmbŞehir";
-            this.CmbŞehir.Size = new System.Drawing.Size(151, 31);
+            this.CmbŞehir.Size = new System.Drawing.Size(151, 37);
             this.CmbŞehir.TabIndex = 7;
             // 
             // label4
@@ -180,7 +180,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(79, 122);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 23);
+            this.label4.Size = new System.Drawing.Size(77, 29);
             this.label4.TabIndex = 6;
             this.label4.Text = "Şehir:";
             // 
@@ -188,7 +188,7 @@
             // 
             this.TxtSoyad.Location = new System.Drawing.Point(150, 88);
             this.TxtSoyad.Name = "TxtSoyad";
-            this.TxtSoyad.Size = new System.Drawing.Size(151, 29);
+            this.TxtSoyad.Size = new System.Drawing.Size(151, 34);
             this.TxtSoyad.TabIndex = 5;
             // 
             // label3
@@ -196,7 +196,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(68, 91);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 23);
+            this.label3.Size = new System.Drawing.Size(91, 29);
             this.label3.TabIndex = 4;
             this.label3.Text = " Soyad:";
             // 
@@ -204,7 +204,7 @@
             // 
             this.TxtAd.Location = new System.Drawing.Point(150, 53);
             this.TxtAd.Name = "TxtAd";
-            this.TxtAd.Size = new System.Drawing.Size(151, 29);
+            this.TxtAd.Size = new System.Drawing.Size(151, 34);
             this.TxtAd.TabIndex = 3;
             // 
             // label2
@@ -212,7 +212,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(100, 53);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 23);
+            this.label2.Size = new System.Drawing.Size(51, 29);
             this.label2.TabIndex = 2;
             this.label2.Text = "Ad:";
             // 
@@ -220,7 +220,7 @@
             // 
             this.Txtİd.Location = new System.Drawing.Point(150, 18);
             this.Txtİd.Name = "Txtİd";
-            this.Txtİd.Size = new System.Drawing.Size(151, 29);
+            this.Txtİd.Size = new System.Drawing.Size(151, 34);
             this.Txtİd.TabIndex = 1;
             // 
             // label1
@@ -228,7 +228,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(30, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 23);
+            this.label1.Size = new System.Drawing.Size(141, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Personel id:";
             // 
@@ -315,6 +315,7 @@
             this.BtnGüncelle.TabIndex = 5;
             this.BtnGüncelle.Text = "Güncelle";
             this.BtnGüncelle.UseVisualStyleBackColor = true;
+            this.BtnGüncelle.Click += new System.EventHandler(this.BtnGüncelle_Click);
             // 
             // groupBox3
             // 
@@ -342,9 +343,10 @@
             this.perMeslekDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.tblPersonellBindingSource;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 25);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 30);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(884, 241);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(884, 236);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
             // 
@@ -352,44 +354,58 @@
             // 
             this.peridDataGridViewTextBoxColumn.DataPropertyName = "Perid";
             this.peridDataGridViewTextBoxColumn.HeaderText = "Perid";
+            this.peridDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.peridDataGridViewTextBoxColumn.Name = "peridDataGridViewTextBoxColumn";
             this.peridDataGridViewTextBoxColumn.ReadOnly = true;
+            this.peridDataGridViewTextBoxColumn.Width = 125;
             // 
             // perAdDataGridViewTextBoxColumn
             // 
             this.perAdDataGridViewTextBoxColumn.DataPropertyName = "PerAd";
             this.perAdDataGridViewTextBoxColumn.HeaderText = "PerAd";
+            this.perAdDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.perAdDataGridViewTextBoxColumn.Name = "perAdDataGridViewTextBoxColumn";
+            this.perAdDataGridViewTextBoxColumn.Width = 125;
             // 
             // perSoyadDataGridViewTextBoxColumn
             // 
             this.perSoyadDataGridViewTextBoxColumn.DataPropertyName = "PerSoyad";
             this.perSoyadDataGridViewTextBoxColumn.HeaderText = "PerSoyad";
+            this.perSoyadDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.perSoyadDataGridViewTextBoxColumn.Name = "perSoyadDataGridViewTextBoxColumn";
+            this.perSoyadDataGridViewTextBoxColumn.Width = 125;
             // 
             // perŞehirDataGridViewTextBoxColumn
             // 
             this.perŞehirDataGridViewTextBoxColumn.DataPropertyName = "PerŞehir";
             this.perŞehirDataGridViewTextBoxColumn.HeaderText = "PerŞehir";
+            this.perŞehirDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.perŞehirDataGridViewTextBoxColumn.Name = "perŞehirDataGridViewTextBoxColumn";
+            this.perŞehirDataGridViewTextBoxColumn.Width = 125;
             // 
             // perMaaşDataGridViewTextBoxColumn
             // 
             this.perMaaşDataGridViewTextBoxColumn.DataPropertyName = "PerMaaş";
             this.perMaaşDataGridViewTextBoxColumn.HeaderText = "PerMaaş";
+            this.perMaaşDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.perMaaşDataGridViewTextBoxColumn.Name = "perMaaşDataGridViewTextBoxColumn";
+            this.perMaaşDataGridViewTextBoxColumn.Width = 125;
             // 
             // perDurumDataGridViewCheckBoxColumn
             // 
             this.perDurumDataGridViewCheckBoxColumn.DataPropertyName = "PerDurum";
             this.perDurumDataGridViewCheckBoxColumn.HeaderText = "PerDurum";
+            this.perDurumDataGridViewCheckBoxColumn.MinimumWidth = 6;
             this.perDurumDataGridViewCheckBoxColumn.Name = "perDurumDataGridViewCheckBoxColumn";
+            this.perDurumDataGridViewCheckBoxColumn.Width = 125;
             // 
             // perMeslekDataGridViewTextBoxColumn
             // 
             this.perMeslekDataGridViewTextBoxColumn.DataPropertyName = "PerMeslek";
             this.perMeslekDataGridViewTextBoxColumn.HeaderText = "PerMeslek";
+            this.perMeslekDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.perMeslekDataGridViewTextBoxColumn.Name = "perMeslekDataGridViewTextBoxColumn";
+            this.perMeslekDataGridViewTextBoxColumn.Width = 125;
             // 
             // tblPersonellBindingSource
             // 
@@ -410,7 +426,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(783, 250);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(61, 23);
+            this.label8.Size = new System.Drawing.Size(78, 29);
             this.label8.TabIndex = 3;
             this.label8.Text = "label8";
             this.label8.Visible = false;
@@ -418,7 +434,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(914, 614);

@@ -138,5 +138,12 @@ namespace Personel_Veritabanı
             bağlantı.Close();
             MessageBox.Show("Personel Bilgi Güncellendi");
         }
+
+        private void Btnİstatislik_Click(object sender, EventArgs e)
+        {
+            Frmistatislik fr = new Frmistatislik();
+            fr.Show();
+            this.Hide();
+        }
     }
 }

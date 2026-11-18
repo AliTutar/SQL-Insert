@@ -35,7 +35,7 @@ namespace Personel_Veritabanı
             TxtAd.Focus();
         }
 
-
+        
 
         private void Form1_Load_1(object sender, EventArgs e)
         {

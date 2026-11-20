@@ -145,5 +145,12 @@ namespace Personel_Veritabanı
             fr.Show();
             this.Hide();
         }
+
+        private void BtnGrafikler_Click(object sender, EventArgs e)
+        {
+            FrmGrafikler frg = new FrmGrafikler();
+            frg.Show();
+            this.Hide();
+        }
     }
 }
